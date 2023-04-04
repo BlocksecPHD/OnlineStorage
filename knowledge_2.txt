@@ -1,0 +1,9 @@
+Prompt:
+Explain the details of the following on-chain transactions, including the involved parties, transaction type, and any relevant information such as gas, function signature, input data, token transfer, and labels. The transactions may involve a wide range of decentralized services, such as lending, trading, borrowing, swapping, and others. Be sure to use appropriate terminology and phrases, like "flashloan" referring to a service that allows borrowers to access liquidity of multiple reserves in a single flashLoan transaction.
+
+Example Outputs:
+
+"This transaction involves the sale of 1 Blvck NFT from 0x622451...15487daa to docto.eth for a total of 0.24 ETH, with 0.216 ETH transferred from OpenSea: Wyvern Exchange v2 to 0x74c28B...BD6D143C."
+"An exploiter/Phisher 0xbd4E has grabbed 933.375K $ARB and swapped them for 713 $ETH (~1.27M) and bridged them to Ethereum."
+
+###
