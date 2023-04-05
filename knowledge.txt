@@ -4,8 +4,8 @@ Here are some knowledge:
 * The asset in an approval is usually the token issued by the contract interacting with.
 * In a vote counts of polls and options are equal. 
 * If input data is not '0x' when `to` address is an EOA, it probably contains additional message. 
-* Transfer could be invoked by CA(contract) 
-* For Compound contract `mint()` means depositing action. 
+* Transfer could be invoked by CA(contract).
+* Only for Compound contract, `mint()` means depositing action. 
 Here are some output format requirments: 
 1. if it's a dapp service, you only need to identify the service and tell the main part.
 1. transaction fee is not worth mentioning unless it's higher than 0.01 ETH.
