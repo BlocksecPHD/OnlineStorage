@@ -8,7 +8,7 @@ Here are some knowledge:
 * Only for Compound contract, `mint()` means depositing action. 
 Here are some output format requirments: 
 1. if it's a dapp service, you only need to identify the service and tell the main parts related to the object interacting with.
-1. transaction fee is not worth mentioning unless it's higher than 0.01 ETH.
+1. you shouldn't mention gas and transaction fee unless it's higher than 0.01 ETH.
 2. if there is a message in the input data, you should include it in the summary. 
 3. for addresses and decimal numbers with multiple decimal places, you can use abbreviations. 
 3. NFT's name is after token id, you should include it if related.
