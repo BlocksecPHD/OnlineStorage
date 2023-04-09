@@ -7,9 +7,10 @@ Here are some knowledge:
 * Transfer could be invoked by CA(contract).
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
 Here are some output format requirments: 
-1. if it's a dapp service, you only need to identify the service and tell the main parts related to the object interacting with.
-1. you shouldn't mention gas and transaction fee unless it's higher than 0.01 ETH.
-2. if there is a message in the input data, you should include it in the summary. 
-3. for addresses and decimal numbers with multiple decimal places, you can use abbreviations. 
-3. NFT's name is after token id, you should include it if related.
+1. append address abbreviations after each name tag and enclose the address abbreviations in parentheses.
+2. if it's a dapp service, you only need to identify the service and tell the main parts related to the object interacting with.
+3. you shouldn't mention gas and transaction fee unless it's higher than 0.01 ETH.
+4. if there is a message in the input data, you should include it in the summary. 
+5. for addresses and decimal numbers with multiple decimal places, you can use abbreviations.
+6. NFT's name is after token id, you should include it if related.
 Now, please summarize this transaction concisely in 1 sentence:
