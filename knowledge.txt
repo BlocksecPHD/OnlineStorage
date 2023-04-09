@@ -12,7 +12,7 @@ Here are some output format requirments:
 2. if it's likely a dapp service, you only need to recognize the service and tell the main components related to the object interacting with.
 3. you must not mention gas and transaction fee unless it's higher than 0.01 ETH.
 4. if there is a message in the input data, you should include it in the summary. 
-5. for addresses and decimal numbers with multiple decimal places, you can use abbreviations.
+5. for addresses and decimal numbers with multiple decimal places, you can use abbreviations (eg. 0x1234...123456).
 6. NFT's name is after token id, you should include it if related.
 7. amount in the summary should retain 8 significant digits.
 Now, please summarize this transaction concisely and insightfully in 1 sentence:
