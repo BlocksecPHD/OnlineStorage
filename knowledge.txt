@@ -1,10 +1,11 @@
 Here are some knowledge: 
-* Labels are important to understand the transaction. 
-* In a swap there could be some intermedias different from the Router used.
-* The asset in an approval is usually the token issued by the contract interacting with.
-* In a vote counts of polls and options are equal. 
+* There are three types of transactions: regular transactions, contract deployment transactions and execution of a contract.
+* Nametags are important to understand the transaction. 
 * If input data is not '0x' when `to` address is an EOA, it probably contains additional message. 
 * Transfer could be invoked by CA(contract).
+* In a swap there could be some intermedias different from the Router used.
+* The asset in an approval is usually the token issued by the `to` contract address.
+* In a vote counts of polls and options are equal. 
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
 Here are some output format requirments: 
 1. append address abbreviations after each name tag and enclose the address abbreviations in parentheses.
