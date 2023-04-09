@@ -13,4 +13,5 @@ Here are some output format requirments:
 4. if there is a message in the input data, you should include it in the summary. 
 5. for addresses and decimal numbers with multiple decimal places, you can use abbreviations.
 6. NFT's name is after token id, you should include it if related.
+7. amount in the summary should retain 8 significant digits.
 Now, please summarize this transaction concisely in 1 sentence:
