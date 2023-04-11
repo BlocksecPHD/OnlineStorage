@@ -7,7 +7,7 @@ Here are some knowledge:
 * The asset in an approval is usually the token issued by the `to` contract address.
 * In a vote counts of polls and options are equal. 
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
-* ERC-20 TOKEN* means fake token that is probably related to a scam.
+* ERC-20 TOKEN* = fake token, and the transaction where it appears is probably related to a scam.
 Here are some output format requirments: 
 1. Append address abbreviations (eg. 0x1234...123456) after each name tag and enclose the address abbreviations in parentheses.
 2. If it's likely a dapp service, you only need to recognize the service and tell the main components related to the object interacting with.
