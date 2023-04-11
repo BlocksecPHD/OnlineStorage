@@ -9,7 +9,7 @@ Here are some knowledge:
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
 * The transaction where "ERC-20 TOKEN*" appears is probably related to a scam.
 * Socket is a complete interoperability stack which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
-
+* Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
 
 Here are some output format requirments: 
 1. Append address abbreviations (eg. 0x1234...123456) after each name tag and enclose the address abbreviations in parentheses.
