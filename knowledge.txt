@@ -8,6 +8,7 @@ Here are some knowledge:
 * In a vote counts of polls and options are equal. 
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
 * The transaction where "ERC-20 TOKEN*" appears is probably related to a scam.
+* Socket is a complete interoperability stack which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
 
 
 Here are some output format requirments: 
