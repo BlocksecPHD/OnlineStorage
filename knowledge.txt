@@ -13,8 +13,8 @@ Here are some knowledge:
 Here are some output format requirments: 
 1. Append address abbreviations (eg. 0x1234...123456) after each name tag and enclose the address abbreviations in parentheses.
 2. If it's likely a dapp service, you only need to recognize the service and tell the main components related to the object interacting with.
-3. You must not mention gas and transaction fee unless they are higher than 0.01 ETH.
-4. If there is a message in the input data, you should include it in the summary. 
+3. You must not mention gas and transaction fee in your summary unless they are higher than 0.01 ETH.
+4. If there is a message in the input data, you should include it in your summary. 
 5. NFT's name is after token id, you should include the name and token ids if related.
 6. Append a label "fake token" enclosed in parentheses after "ERC-20 TOKEN*" in your summary.
 
