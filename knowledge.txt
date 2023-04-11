@@ -1,6 +1,6 @@
 Here are some knowledge: 
 * There are three types of transactions: regular transactions, contract deployment transactions and execution of a contract.
-* Nametags and labels are essential to understand the transaction. 
+* Nametags and labels are crucial to understand the transaction. 
 * If input data is not '0x' when `to` address is an EOA, it probably contains additional message. 
 * Transfer could be invoked by CA(contract).
 * In a swap there could be some intermedias different from the Router used.
@@ -15,7 +15,7 @@ Here are some output format requirments:
 1. Append address abbreviations (eg. 0x1234...123456) after each name tag and enclose the address abbreviations in parentheses.
 2. If it's likely a dapp service, you only need to recognize the service and tell the main components related to the object interacting with.
 3. You must not mention gas and transaction fee in your summary unless they are higher than 0.01 ETH.
-4. If there is a message in the input data, you should include it in your summary. 
+4. If there is a message in the input data, you should include it in your summary.
 5. NFT's name is after token id, you should include the name and token ids if related.
 6. If it's probably related to a scam, exploitation or phishing, please note the risk at the end.
 
