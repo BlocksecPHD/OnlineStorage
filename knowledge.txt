@@ -7,8 +7,8 @@ Here are some knowledge:
 * The asset in an approval is usually the token issued by the `to` contract address.
 * In a vote counts of polls and options are equal. 
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
-* ERC-20 TOKEN* refers to fake tokens, and the transaction where it appears is probably related to a scam.
-Mapping dict:
+* The transaction where ERC-20 TOKEN* appears is probably related to a scam.
+
 
 Here are some output format requirments: 
 1. Append address abbreviations (eg. 0x1234...123456) after each name tag and enclose the address abbreviations in parentheses.
@@ -16,5 +16,6 @@ Here are some output format requirments:
 3. You must not mention gas and transaction fee unless they are higher than 0.01 ETH.
 4. If there is a message in the input data, you should include it in the summary. 
 5. NFT's name is after token id, you should include the name and token ids if related.
+6. ERC-20 TOKEN* should be labeled as "fake token"
 Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with corresponding abbreviation. For example, replace the address "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" with "0x0c66...9CD2". Remove any high decimal numbers, and replace it with its abbreviation. For example, replace the number "0.1561561894" with "0.156".
 
