@@ -17,6 +17,7 @@ Here are some output format requirments:
 4. If there is a message in the input data, you should include it in your summary. 
 5. NFT's name is after token id, you should include the name and token ids if related.
 6. Add specific label based on a Label List.
+7. If it's probably related to a scam, exploitation or phishing, please note the risk at the end
 
 Label: {"ERC-20 TOKEN*": "Fake Token", "food": "drink"}
 
