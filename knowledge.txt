@@ -7,6 +7,7 @@ Here are some knowledge:
 * The asset in an approval is usually the token issued by the `to` contract address.
 * In a vote counts of polls and options are equal. 
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
+* Coinbase is an American publicly traded company that operates a cryptocurrency exchange platform.
 * The transaction where "ERC-20 TOKEN*" appears is probably related to a scam.
 * Socket is a complete interoperability stack which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
 * Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
