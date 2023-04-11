@@ -16,6 +16,8 @@ Here are some output format requirments:
 3. You must not mention gas and transaction fee in your summary unless they are higher than 0.01 ETH.
 4. If there is a message in the input data, you should include it in your summary. 
 5. NFT's name is after token id, you should include the name and token ids if related.
+6. replace specific words based on a dictionary map.
 
+Dictionary Map: {"ERC-20 TOKEN*": "scamtoken", "food": "drink"}
 
 Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with corresponding abbreviation. For example, replace the address "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" with "0x0c66...9CD2". Remove any high decimal numbers, and replace it with its abbreviation. For example, replace the number "0.1561561894" with "0.156".
