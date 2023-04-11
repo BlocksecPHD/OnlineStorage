@@ -1,16 +1,3 @@
-Here are some knowledge: 
-* There are three types of transactions: regular transactions, contract deployment transactions and execution of a contract.
-* Nametags and labels are essential to understand the transaction. 
-* If input data is not '0x' when `to` address is an EOA, it probably contains additional message. 
-* Transfer could be invoked by CA(contract).
-* In a swap there could be some intermedias different from the Router used.
-* The asset in an approval is usually the token issued by the `to` contract address.
-* In a vote counts of polls and options are equal. 
-* Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
-* The transaction where "ERC-20 TOKEN*" appears is probably related to a scam.
-* Socket is a complete interoperability stack which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
-
-
 Here are some output format requirments: 
 1. Append address abbreviations (eg. 0x1234...123456) after each name tag and enclose the address abbreviations in parentheses.
 2. If it's likely a dapp service, you only need to recognize the service and tell the main components related to the object interacting with.
