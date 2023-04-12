@@ -2,6 +2,7 @@ Here are some knowledge:
 * Labels and inputdata are crucial to understand the transaction.
 * Token Transfer could be invoked by contract.
 * Etherscan marks "Fake Token"s as "ERC-20 Token*"
+* Transaction initiated by Fake_Phishing addresses is likely related to a phishing scam.
 * In a swap there could be some intermedias different from the Router used.
 * The asset in an approval is usually the token issued by the `To` contract address.
 * Approval for a specific address is risky, and the transaction where it appears should be a phishing scam.
