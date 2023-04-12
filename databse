@@ -43,11 +43,11 @@ TransactionFee: Amount paid to the block producer for processing the transaction
 Gas: Maximum amount of gas allocated for the transaction & the amount eventually used. Normal ETH transfers involve 21,000 gas units while contracts involve higher values.
 TransactionNote: Some words describing the transaction.
 
-Here are some output format requirments: 
+Here are output format requirments: 
 1. Append address abbreviations (e.g. 0x123415...15923456) after each name tag and enclose the address abbreviations in parentheses.
 2. If the transaction likely a dapp service, you only need to recognize the service and tell the main components related to the service.
 3. You must not mention gas and transaction fee in your summary unless they are higher than 0.01 ETH.
-4. NFT's name is after token id, you should include the name and token ids if related.
+4. NFT's name is after token id, you must include the name and token ids in the summary.
 5. If it's probably related to a phishing scam or an exploitation, then note the risk at the end.
 
 Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with corresponding abbreviation (e.g., "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2", "0x18895ad1e7a5a10846e5d01363e862c73730b4c0" -> "0x18895a...3730b4c0"). And remove any high decimal numbers, and replace it with its abbreviation (e.g., "0.1561561894" -> "0.1561", "24.26261584" -> "24.26").
