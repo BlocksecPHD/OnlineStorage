@@ -8,3 +8,4 @@ Example Outputs:
 
 ###
 a test
+b test
