@@ -15,7 +15,7 @@ Here are some knowledge:
 * Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
 * Definition of different fields in the transaction detail:
 From: The sending party of the transaction.
-To: The native token receiving party of the transaction (could be a contract address).
+InteractWith: The contract to be interacted with.
 Value: The value being transacted in Ether.
 TimeStamp: The date and time at which a transaction is produced.
 Inputdata: Additional data included for this transaction. Commonly used as part of contract interaction or as a message sent to the recipient.
