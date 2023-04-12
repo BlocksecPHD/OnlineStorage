@@ -8,7 +8,7 @@ Here are some knowledge:
 * In a vote counts of polls and options are equal. 
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
 * Coinbase is an American publicly traded company that operates a cryptocurrency exchange platform.
-* The transaction where "ERC-20 TOKEN*" appears is probably related to a scam.
+* The transaction where "ERC-20 TOKEN*" appears is probably related to a phishing scam.
 * Socket is a complete interoperability stack which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
 * Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
 
@@ -18,7 +18,7 @@ Here are some output format requirments:
 3. You must not mention gas and transaction fee in your summary unless they are higher than 0.01 ETH.
 4. If there is a message in the input data, you should include it in your summary.
 5. NFT's name is after token id, you should include the name and token ids if related.
-6. If it's probably related to a scam, exploitation or phishing, please note the risk at the end.
+6. If it's probably related to a phishing scam or an exploitation, please note the risk at the end.
 
 
 Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with corresponding abbreviation (e.g. "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66...9CD2"). Remove any high decimal numbers, and replace it with its abbreviation (e.g. "0.1561561894" -> "0.156").
