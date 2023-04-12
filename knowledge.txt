@@ -1,6 +1,7 @@
 Here are some knowledge: 
 * Labels and inputdata are crucial to understand the transaction.
 * Token Transfer could be invoked by contract.
+* Etherscan marks "Fake Token"s as "ERC-20 Token*"
 * Transaction initiated by Fake_Phishing addresses is likely related to a phishing scam.
 * In a swap there could be some intermedias different from the Router used.
 * The asset in an approval is usually the token issued by the `To` contract address.
@@ -11,6 +12,23 @@ Here are some knowledge:
 * The transaction where "ERC-20 TOKEN*" appears is probably related to a phishing scam.
 * Socket is a complete interoperability stack which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
 * Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
+* Explainations for different fields in a transaction detail:
+From: The sending party of the transaction.
+To: The receiving party of the transaction (could be a contract address).
+Value: The value being transacted in Ether.
+TimeStamp: The date and time at which a transaction is produced.
+Inputdata: Additional data included for this transaction. Commonly used as part of contract interaction or as a message sent to the recipient.
+TransactionAction: Highlighted events of the transaction.
+ETHTransfer: List of native token transferred in the transaction.
+ERC20Transfer: List of ERC-20 tokens transferred in the transaction.
+ERC721Transfer: List of ERC-721 tokens transferred in the transaction.
+ERC1155Transfer: List of ERC-721 tokens transferred in the transaction.
+Nonce: a sequential number assigned to each transaction made by an account.
+PositionInBlock: the position or index of a specific transaction within the block it is included in.
+TxnType: "1" means legacy transaction, "2" means EIP-1159 transaction.
+TransactionFee: Amount paid to the block producer for processing the transaction.
+Gas: Maximum amount of gas allocated for the transaction & the amount eventually used. Normal ETH transfers involve 21,000 gas units while contracts involve higher values.
+TransactionNote: Some words describing the transaction.
 
 Here are some output format requirments: 
 1. Append address abbreviations (e.g. 0x123415...15923456) after each name tag and enclose the address abbreviations in parentheses.
