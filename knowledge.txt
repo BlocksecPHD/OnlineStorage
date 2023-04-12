@@ -2,17 +2,17 @@ Here are some knowledge:
 * Labels and inputdata are crucial to understand the transaction.
 * Token Transfer could be invoked by contract.
 * Etherscan has labeled all Fake Tokens as "ERC-20 Token*"
-* Transaction initiated by Fake_Phishing addresses is likely related to a phishing scam.
+* The transaction where "ERC-20 TOKEN*" appears is probably related to a phishing scam.
+* Transaction where Fake_Phishing addresses appear is likely related to a phishing scam.
 * In a swap there could be some intermedias different from the Router used.
 * The asset in an approval is usually the token issued by the `To` contract address.
 * Approval for a specific address is risky, and the transaction where it appears should be a phishing scam.
 * In a vote counts of polls and options are equal.
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
 * Coinbase is an American publicly traded company that operates a cryptocurrency exchange platform.
-* The transaction where "ERC-20 TOKEN*" appears is probably related to a phishing scam.
 * Socket is a complete interoperability stack which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
 * Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
-* Explainations for different fields in a transaction detail:
+* Definition of different fields in the transaction detail:
 From: The sending party of the transaction.
 To: The receiving party of the transaction (could be a contract address).
 Value: The value being transacted in Ether.
@@ -40,4 +40,6 @@ Here are some output format requirments:
 
 Tag list:{"ERC-20 TOKEN*": "Fake Token"}
 
-Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with corresponding abbreviation (e.g. "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2", "0x18895ad1e7a5a10846e5d01363e862c73730b4c0" -> "0x18895a...3730b4c0"). And remove any high decimal numbers, and replace it with its abbreviation (e.g. "0.1561561894" -> "0.1561", "24.26261584" -> "24.26").: 
+Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with corresponding abbreviation (e.g. "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2", "0x18895ad1e7a5a10846e5d01363e862c73730b4c0" -> "0x18895a...3730b4c0"). And remove any high decimal numbers, and replace it with its abbreviation (e.g. "0.1561561894" -> "0.1561", "24.26261584" -> "24.26").
+
+Transaction: 
