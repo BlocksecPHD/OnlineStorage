@@ -2,7 +2,7 @@ Here are some knowledge:
 * Nametags and labels are crucial to understand the transaction.
 * Transfer could be invoked by CA(contract).
 * In a swap there could be some intermedias different from the Router used.
-* The asset in an approval is usually the token issued by the `to` contract address.
+* The asset in an approval is usually the token issued by the `To` contract address.
 * In a vote counts of polls and options are equal. 
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
 * Coinbase is an American publicly traded company that operates a cryptocurrency exchange platform.
