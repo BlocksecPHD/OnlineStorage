@@ -16,9 +16,10 @@ Here are some output format requirments:
 1. Append address abbreviations (eg. 0x1234...123456) after each name tag and enclose the address abbreviations in parentheses.
 2. If it's likely a dapp service, you only need to recognize the service and tell the main components related to the object interacting with.
 3. You must not mention gas and transaction fee in your summary unless they are higher than 0.01 ETH.
-4. If there is a message in the input data, you should include it in your summary.
-5. NFT's name is after token id, you should include the name and token ids if related.
-6. If it's probably related to a phishing scam or an exploitation, please note the risk at the end.
+4. NFT's name is after token id, you should include the name and token ids if related.
+5. If it's probably related to a phishing scam or an exploitation, please note the risk at the end.
+6. Add labels after the keywords according to the Label List.
 
+Label List:{"ERC-20 TOKEN*": "Fake Token"}
 
 Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with corresponding abbreviation (e.g. "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66...9CD2"). Remove any high decimal numbers, and replace it with its abbreviation (e.g. "0.1561561894" -> "0.156").
