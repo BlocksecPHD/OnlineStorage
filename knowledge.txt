@@ -1,7 +1,7 @@
 Here are some knowledge: 
 * Labels and inputdata are crucial to understand the transaction.
 * Token Transfer could be invoked by contract.
-* Etherscan has labeled all Fake Tokens as "ERC-20 Token*"
+* Etherscan has labeled all Fake Tokens as "ERC-20 TOKEN*"
 * The transaction where "ERC-20 TOKEN*" appears is probably related to a phishing scam.
 * Transaction where Fake_Phishing addresses appear is likely related to a phishing scam.
 * In a swap there could be some intermedias different from the Router used.
