@@ -1,5 +1,5 @@
 Here are some knowledge: 
-* Labels and function parameters are crucial to understand the transaction.
+* Labels and inputdata are crucial to understand the transaction.
 * Transfer could be invoked by CA(contract).
 * In a swap there could be some intermedias different from the Router used.
 * The asset in an approval is usually the token issued by the `To` contract address.
