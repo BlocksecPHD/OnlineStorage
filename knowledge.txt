@@ -2,6 +2,7 @@ Here are some knowledge:
 * Labels and inputdata are crucial to understand the transaction.
 * Token Transfer could be invoked by contract.
 * Etherscan has labeled all fake tokens as "ERC-20 TOKEN*"
+* Labels give you a useful mapping that could help identify the transaction type and motivation.
 * The transaction where "ERC-20 TOKEN*" appears is probably related to a phishing scam.
 * Transaction where Fake_Phishing addresses appear is likely related to a phishing scam.
 * In a swap there could be some intermedias different from the Router used.
@@ -29,6 +30,7 @@ TxnType: "1" means legacy transaction, "2" means EIP-1159 transaction.
 TransactionFee: Amount paid to the block producer for processing the transaction.
 Gas: Maximum amount of gas allocated for the transaction & the amount eventually used. Normal ETH transfers involve 21,000 gas units while contracts involve higher values.
 TransactionNote: Some keywords about the transaction.
+Labels: A list of labels that are associated with the transaction.
 
 Here are output format requirments: 
 1. Append address abbreviations (e.g. 0x123415...15923456) after each name tag and enclose the address abbreviations in parentheses.
@@ -38,6 +40,6 @@ Here are output format requirments:
 5. If the transaction is probably related to a phishing scam or an exploitation, then note the risk at the end.
 6. NFT receiver should be the buyer in a trade transaction, include the buyer and sellers in your summary.
 
-Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with corresponding abbreviation (e.g., "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2", "0x18895ad1e7a5a10846e5d01363e862c73730b4c0" -> "0x18895a...3730b4c0"). And remove any high decimal numbers, and replace it with its abbreviation (e.g., "0.1561561894" -> "0.1561", "24.26261584" -> "24.26").
+Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with corresponding abbreviation (e.g., "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2", "0x18895ad1e7a5a10846e5d01363e862c73730b4c0" -> "0x18895a...3730b4c0"). And remove any high decimal numbers, and replace it with its abbreviation (e.g., "0.1561561894" -> "0.1561", "24.26261584" -> "24.26"). You should use Labels to refine your summary:
 
 Transaction details: 
