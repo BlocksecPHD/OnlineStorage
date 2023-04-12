@@ -16,7 +16,7 @@ Here are some output format requirments:
 3. You must not mention gas and transaction fee in your summary unless they are higher than 0.01 ETH.
 4. NFT's name is after token id, you should include the name and token ids if related.
 5. If it's probably related to a phishing scam or an exploitation, please note the risk at the end.
-6. Add a label(value) after the keywords(key) according to the Label dictionary.
+6. Add a label(value) following the keywords(key) according to the Label dictionary.
 
 Label dictionary:{"ERC-20 TOKEN*": "Fake Token"}
 
