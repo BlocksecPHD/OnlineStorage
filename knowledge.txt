@@ -32,7 +32,7 @@ TransactionNote: Some keywords about the transaction.
 
 Here are output format requirments: 
 1. Append address abbreviations (e.g. 0x123415...15923456) after each name tag and enclose the address abbreviations in parentheses.
-2. If the transaction likely a dapp service, you only need to recognize the service and tell the main components related to the service.
+2. If the transaction is likely related to a dapp service, you should recognize the service and tell the main components in the service.
 3. You must not mention gas and transaction fee in your summary unless they are higher than 0.01 ETH.
 4. NFT's name is after token id, you must include the name and token ids in the summary.
 5. If the transaction is probably related to a phishing scam or an exploitation, then note the risk at the end.
