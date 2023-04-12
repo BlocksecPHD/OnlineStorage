@@ -18,7 +18,7 @@ To: The receiving party of the transaction (could be a contract address).
 Value: The value being transacted in Ether.
 TimeStamp: The date and time at which a transaction is produced.
 Inputdata: Additional data included for this transaction. Commonly used as part of contract interaction or as a message sent to the recipient.
-TransactionAction: Highlighted events of the transaction. Usually refers to the action acted by initiator, but in some cases it could be the action acted by others.
+TransactionAction: Highlighted events of the transaction. Such actions aren't always acted by the initiator.
 ETHTransfer: List of native token transferred in the transaction.
 ERC20Transfer: List of ERC-20 tokens transferred in the transaction.
 ERC721Transfer: List of ERC-721 tokens transferred in the transaction.
