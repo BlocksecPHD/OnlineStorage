@@ -12,6 +12,7 @@ Here are some knowledge:
 * Coinbase is an American publicly traded company that operates a cryptocurrency exchange platform.
 * Socket is a complete interoperability stack which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
 * Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
+* Transaction action usually refers to the action acted by initiator, but in some cases it could be the action acted by others.
 * Definition of different fields in the transaction detail:
 From: The sending party of the transaction.
 To: The receiving party of the transaction (could be a contract address).
