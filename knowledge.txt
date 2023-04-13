@@ -7,7 +7,7 @@ Here are some knowledge:
 * Transaction where Fake_Phishing address appears is likely related to a phishing scam.
 * In a swap there could be some intermedias different from the Router used.
 * The asset in an approval is usually the token issued by the `To` contract address.
-* Approval for a specific address without a label is risky, and the transaction where it appears should be a phishing scam.
+* Approval to a specific address without a label is risky, and the transaction where it appears should be a phishing scam.
 * In a vote counts of polls and options are equal.
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
 * Coinbase is an American publicly traded company that operates a cryptocurrency exchange platform.
