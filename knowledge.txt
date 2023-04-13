@@ -10,7 +10,7 @@ Here are some knowledge:
 * In a swap there could be some intermedias different from the Router used (usually the `InteractedWith` contract).
 * In a swap, if the value is not 0 ETH, it is usually the total amount of srcToken.
 * The asset in an approval is usually the token issued by the `To` contract address.
-* Approval to a specific address without a label is risky, and the transaction where it appears is probably be a phishing scam.
+* Approval to trade on a specific address without a label is risky, and the transaction where it happens is probably a phishing scam.
 * In a vote counts of polls and options are equal.
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
 * Coinbase is an American publicly traded company that operates a cryptocurrency exchange platform.
