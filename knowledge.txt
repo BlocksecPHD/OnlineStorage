@@ -28,7 +28,7 @@ ERC1155Transfer: List of ERC-721 tokens transferred in the transaction.
 Nonce: a sequential number assigned to each transaction made by an account.
 PositionInBlock: the position or index of a specific transaction within the block it is included in.
 TxnType: "1" means legacy transaction, "2" means EIP-1159 transaction.
-TransactionFee: Amount paid to the block producer for processing the transaction.
+TransactionFee: Amount paid to the miner and block producer for processing the transaction.
 Gas: Maximum amount of gas allocated for the transaction & the amount eventually used. Normal ETH transfers involve 21,000 gas units while contracts involve higher values.
 TransactionNote: Some keywords about the transaction.
 Labels: A list of labels that are associated with the transaction.

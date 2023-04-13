@@ -3,7 +3,7 @@
 * Good Examples:
 
 质押带参数解析（时长）：https://etherscan.io/tx/0x0767d2217dd6e8d2207017d0eaea0bedd551da233e1c047890f3a2e47478b489
-Phishing USDC: https://etherscan.io/tx/0x9c3a6dfd79c5a4faa0341d284805ff770440b6f2059d69d42ec16a1fc08566ec ()
+Phishing USDC: https://etherscan.io/tx/0x9c3a6dfd79c5a4faa0341d284805ff770440b6f2059d69d42ec16a1fc08566ec
 假Token Phishing: https://etherscan.io/tx/0x17b20ae948fe3cba15d7dd456254c625c99cf7829f0db795ef42771200891adf
 合约创建: https://etherscan.io/tx/0x86db14691704256f375e10b153741160d11fd19d29f315c4dda6d52700f93194
 无函数解析的交易: https://etherscan.io/tx/0xa6a034d38054150d8074725c69c771cd1153964f01be3d8e312bea60e4a2e05c
@@ -44,7 +44,7 @@ ERC1155Transfer: List of ERC-721 tokens transferred in the transaction.
 Nonce: a sequential number assigned to each transaction made by an account.
 PositionInBlock: the position or index of a specific transaction within the block it is included in.
 TxnType: "1" means legacy transaction, "2" means EIP-1159 transaction.
-TransactionFee: Amount paid to the block producer for processing the transaction.
+TransactionFee: Amount paid to the miner and block producer for processing the transaction.
 Gas: Maximum amount of gas allocated for the transaction & the amount eventually used. Normal ETH transfers involve 21,000 gas units while contracts involve higher values.
 TransactionNote: Some keywords about the transaction.
 
