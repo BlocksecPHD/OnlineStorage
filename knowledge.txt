@@ -5,7 +5,7 @@ Here are some knowledge:
 * A label normally shows after an address and is enclosed in parentheses.
 * `Labels` give you a useful mapping that could help identify the transaction type and motivation.
 * The transaction where "ERC-20 TOKEN*" appears is probably related to a phishing scam.
-* Transaction where Fake_Phishing appears is probably related to a phishing scam.
+* Transaction where Fake_Phishing appears is likely related to a phishing scam.
 * Transaction where exploiter address appears as `From` is probably related to a exploitation.
 * In a swap there could be some intermedias different from the Router used (usually the `InteractedWith` contract).
 * In a swap, if the value is not 0 ETH, it is usually the total amount of srcToken.
