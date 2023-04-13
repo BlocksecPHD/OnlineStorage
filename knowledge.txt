@@ -16,6 +16,7 @@ Here are some knowledge:
 * Socket is a complete interoperability stack which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
 * Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
 * Aave is an Open Source and Non-Custodial protocol to earn interest on deposits and borrow assets.
+* Blur Pool is a ETH equivalant designed to place a bid for NFTs.
 * Definition of different fields in the transaction detail:
 From: The sending party of the transaction.
 InteractedWith: The contract to be interacted with.
