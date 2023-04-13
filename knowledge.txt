@@ -20,7 +20,6 @@ Here are some knowledge:
 * Socket is a complete interoperability stack which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
 * Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
 * Aave is an Open Source and Non-Custodial protocol to earn interest on deposits and borrow assets.
-* Huge amount such as "411256436224324320870982430867023952481793415358246197461731293" should be interpreted as UNLIMITED.
 * Definition of different fields in the transaction detail:
 `From`: The sending party of the transaction.
 `InteractedWith`: The contract to be interacted with.
@@ -47,6 +46,7 @@ Here are output format requirments:
 4. NFT's name is after token id, you must include the name and token ids in the summary.
 5. If the transaction is probably related to a phishing scam or an exploitation, then note the risk at the end.
 6. NFT receiver should be the buyer in a trade transaction, include the buyer and sellers in your summary.
+7. Huge amount such as "411256436224324320870982430867023952481793415358246197461731293" should be interpreted as "UNLIMITED".
 
 Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with corresponding abbreviation (e.g., "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2", "0x18895ad1e7a5a10846e5d01363e862c73730b4c0" -> "0x18895a...3730b4c0"). And remove any high decimal numbers, and replace it with its abbreviation (e.g., "0.15615618294" -> "0.1561", "24.26261584" -> "24.26"). If there is any risk, please note that.
 
