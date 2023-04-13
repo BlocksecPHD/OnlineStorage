@@ -12,7 +12,7 @@ Here are some knowledge:
 * A Contract is usually with a label, and the label is usually the name of the contract.
 * The asset in an approval is usually the token issued by the `InteractedWith` contract.
 * An EOA(Externally Owned Accounts) rarely has a label, unless it has done something special.
-* "0x0CeC78...4A94bf42" is risky, and the transaction where it appears is probably related to a phishing. It's not "Tether: USDT Stablecoin", not "ERC-20 TOKEN*".
+* "0x0CeC78...4A94bf42" is risky and the transaction where it appears is probably related to a phishing. "0x0CeC78...4A94bf42" is neither "Tether: USDT Stablecoin", nor "ERC-20 TOKEN*".
 * In a vote counts of polls and options are equal.
 * In an approval, the `InteractedWith` couldn't be the approval destination.
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
