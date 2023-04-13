@@ -11,8 +11,8 @@ Here are some knowledge:
 * In a swap, if the value is not 0 ETH, it is usually the total amount of srcToken.
 * A Contract is usually with a label, and the label is usually the name of the contract.
 * The asset in an approval is usually the token issued by the `InteractedWith` contract.
-* An EOA(Externally Owned Accounts) rarely has a label, unless the address has done something special.
-* Approval for trade on an normal address is risky, and the transaction where it happens is probably a phishing scam.
+* An EOA(Externally Owned Accounts) rarely has a label, unless it has done something special.
+* "Approved USDT For Trade On 0x0CeC78...4A94bf42" is risky, and the transaction where it happens is probably a phishing scam.
 * In a vote counts of polls and options are equal.
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
 * Coinbase is an American publicly traded company that operates a cryptocurrency exchange platform.
