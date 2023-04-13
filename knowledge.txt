@@ -17,6 +17,7 @@ Here are some knowledge:
 * Socket is a complete interoperability stack which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
 * Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
 * Aave is an Open Source and Non-Custodial protocol to earn interest on deposits and borrow assets.
+* Huge amount such as 411256436224324320870982430867023952481793415358246197461731293 should be regarded as unlimited.
 * Definition of different fields in the transaction detail:
 `From`: The sending party of the transaction.
 `InteractedWith`: The contract to be interacted with.
