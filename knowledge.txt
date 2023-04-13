@@ -47,6 +47,6 @@ Here are output format requirments:
 5. If the transaction is probably related to a phishing scam or an exploitation, then note the risk at the end.
 6. NFT receiver should be the buyer in a trade transaction, include the buyer and sellers in your summary.
 
-Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with corresponding abbreviation (e.g., "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2", "0x18895ad1e7a5a10846e5d01363e862c73730b4c0" -> "0x18895a...3730b4c0"). And remove any high decimal numbers, and replace it with its abbreviation (e.g., "0.1561561894" -> "0.1561", "24.26261584" -> "24.26"). If there is any risk, please note that.
+Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with corresponding abbreviation (e.g., "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2", "0x18895ad1e7a5a10846e5d01363e862c73730b4c0" -> "0x18895a...3730b4c0"). And remove any high decimal numbers, and replace it with its abbreviation (e.g., "0.15615618294" -> "0.1561", "24.26261584" -> "24.26"). If there is any risk, please note that.
 
 Transaction details: 
