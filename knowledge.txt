@@ -1,9 +1,9 @@
 Here are some knowledge: 
-* Labels and inputdata are crucial to understand a transaction.
+* `Labels` and `inputdata` are crucial to understand a transaction.
 * Token Transfer could be invoked by contract.
 * Etherscan has labeled all fake tokens as "ERC-20 TOKEN*"
 * A label normally shows after an address and is enclosed in parentheses.
-* Labels give you a useful mapping that could help identify the transaction type and motivation.
+* `Labels` give you a useful mapping that could help identify the transaction type and motivation.
 * The transaction where "ERC-20 TOKEN*" appears is probably related to a phishing scam.
 * Transaction where Fake_Phishing address appears is likely related to a phishing scam.
 * Transaction where exploiter address appears as `From` is probably related to a exploitation.
