@@ -18,23 +18,23 @@ Here are some knowledge:
 * Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
 * Aave is an Open Source and Non-Custodial protocol to earn interest on deposits and borrow assets.
 * Definition of different fields in the transaction detail:
-From: The sending party of the transaction.
-InteractedWith: The contract to be interacted with.
-TimeStamp: The date and time at which a transaction is produced.
-Value: The value being transacted in Ether.
-Inputdata: Additional data included for this transaction. Commonly used as part of contract interaction or as a message sent to the recipient.
-TransactionAction: Highlighted events of the transaction. Such actions aren't always acted by the initiator.
-ETHTransfer: List of native token transferred in the transaction.
-ERC20Transfer: List of ERC-20 tokens transferred in the transaction.
-ERC721Transfer: List of ERC-721 tokens transferred in the transaction.
-ERC1155Transfer: List of ERC-721 tokens transferred in the transaction.
-Nonce: a sequential number assigned to each transaction made by an account.
-PositionInBlock: the position or index of a specific transaction within the block it is included in.
-TxnType: "1" means legacy transaction, "2" means EIP-1159 transaction.
-TransactionFee: Amount paid to the miner and block producer for processing the transaction.
-Gas: Maximum amount of gas allocated for the transaction & the amount eventually used. Normal ETH transfers involve 21,000 gas units while contracts involve higher values.
-TransactionNote: Some keywords about the transaction.
-Labels: A list of labels that are associated with the transaction.
+`From`: The sending party of the transaction.
+`InteractedWith`: The contract to be interacted with.
+`TimeStamp`: The date and time at which a transaction is produced.
+`Value`: The value being transacted in Ether.
+`Inputdata`: Additional data included for this transaction. Commonly used as part of contract interaction or as a message sent to the recipient.
+`TransactionAction`: Highlighted events of the transaction. Such actions aren't always acted by the initiator.
+`ETHTransfer`: List of native token transferred in the transaction.
+`ERC20Transfer`: List of ERC-20 tokens transferred in the transaction.
+`ERC721Transfer`: List of ERC-721 tokens transferred in the transaction.
+`ERC1155Transfer`: List of ERC-721 tokens transferred in the transaction.
+`Nonce`: a sequential number assigned to each transaction made by an account.
+`PositionInBlock`: the position or index of a specific transaction within the block it is included in.
+`TxnType`: "1" means legacy transaction, "2" means EIP-1159 transaction.
+`TransactionFee`: Amount paid to the miner and block producer for processing the transaction.
+`Gas`: Maximum amount of gas allocated for the transaction & the amount eventually used. Normal ETH transfers involve 21,000 gas units while contracts involve higher values.
+`TransactionNote`: Some keywords about the transaction.
+`Labels`: A list of labels that are associated with the transaction.
 
 Here are output format requirments: 
 1. Append address abbreviations (e.g. 0x123415...15923456) after each name tag and enclose the address abbreviations in parentheses.
