@@ -2,13 +2,18 @@
 * Train：From, To, Value, Inputdata, Label
 * Good Examples:
 
-质押带参数解析（时长）：https://etherscan.io/tx/0x0767d2217dd6e8d2207017d0eaea0bedd551da233e1c047890f3a2e47478b489
+
+
+带消息转账(Paraspace): https://etherscan.io/tx/0x8eb65ef100eb65273e42f227fb4b4b639531c2c892f4aa60c118c84dc677f98b
+合约创建: https://etherscan.io/tx/0xdeffbe61ea00bf2ddc7ed7d37f08538ca0b1525c885f5212e72481e98eb1fbb3
 Phishing USDC: https://etherscan.io/tx/0x9c3a6dfd79c5a4faa0341d284805ff770440b6f2059d69d42ec16a1fc08566ec
-假Token Phishing: https://etherscan.io/tx/0x17b20ae948fe3cba15d7dd456254c625c99cf7829f0db795ef42771200891adf
-合约创建: https://etherscan.io/tx/0x86db14691704256f375e10b153741160d11fd19d29f315c4dda6d52700f93194
-无函数解析的交易: https://etherscan.io/tx/0xa6a034d38054150d8074725c69c771cd1153964f01be3d8e312bea60e4a2e05c
-触发合约执行ETH转移的Mint：https://etherscan.io/tx/0x14b8e3bfe9ccbaadf4ba63802d5b076e8fe5c209a340f25421c4eae9cafdbfeb
+质押带参数解析（时长）：https://etherscan.io/tx/0x0767d2217dd6e8d2207017d0eaea0bedd551da233e1c047890f3a2e47478b489
 带Forta: https://etherscan.io/tx/0x9c3a6dfd79c5a4faa0341d284805ff770440b6f2059d69d42ec16a1fc08566ec
+假Token Phishing: https://etherscan.io/tx/0x17b20ae948fe3cba15d7dd456254c625c99cf7829f0db795ef42771200891adf
+触发合约执行ETH转移的Mint：https://etherscan.io/tx/0x14b8e3bfe9ccbaadf4ba63802d5b076e8fe5c209a340f25421c4eae9cafdbfeb
+无函数解析的交易: https://etherscan.io/tx/0xa6a034d38054150d8074725c69c771cd1153964f01be3d8e312bea60e4a2e05c
+
+
 
 
 TMP{
