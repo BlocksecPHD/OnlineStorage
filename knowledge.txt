@@ -16,8 +16,8 @@ Here are some knowledge:
 * Definition of different fields in the transaction detail:
 From: The sending party of the transaction.
 InteractedWith: The contract to be interacted with.
-Value: The value being transacted in Ether.
 TimeStamp: The date and time at which a transaction is produced.
+Value: The value being transacted in Ether.
 Inputdata: Additional data included for this transaction. Commonly used as part of contract interaction or as a message sent to the recipient.
 TransactionAction: Highlighted events of the transaction. Such actions aren't always acted by the initiator.
 ETHTransfer: List of native token transferred in the transaction.
