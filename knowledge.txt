@@ -4,7 +4,7 @@ Here are some knowledge:
 * Etherscan has labeled all fake tokens as "ERC-20 TOKEN*"
 * Labels give you a useful mapping that could help identify the transaction type and motivation.
 * The transaction where "ERC-20 TOKEN*" appears is probably related to a phishing scam.
-* Transaction where Fake_Phishing address appears is likely related to a phishing scam.
+* Transaction where Fake_Phishing-prefixed address appears is likely related to a phishing scam.
 * Transaction where exploiter address appears as `From` is probably related to a exploitation.
 * In a swap there could be some intermedias different from the Router used.
 * The asset in an approval is usually the token issued by the `To` contract address.
