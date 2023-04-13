@@ -17,7 +17,7 @@ Here are some knowledge:
 * The `InteractedWith` will not become the authorized entity in an approval.
 * Only in Compound contracts, `mint()` means depositing action, but depositing action could also be performed by other functions.
 * Coinbase is an American publicly traded company that operates a cryptocurrency exchange platform.
-* Socket is a complete interoperability stack which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
+* Socket is a complete interoperability bridge which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
 * Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
 * Aave is an Open Source and Non-Custodial protocol to earn interest on deposits and borrow assets.
 * Definition of different fields in the transaction detail:
