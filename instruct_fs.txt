@@ -1,0 +1,8 @@
+Here are some output format requirments: 
+1. Append address abbreviations (eg. 0x123456...12345678) after each name tag and enclose the address abbreviations in parentheses.
+2. If it's likely a dapp service, you only need to recognize the service and tell the main components related to the object interacting with.
+3. You must not mention gas and transaction fee in your summary unless it's special.
+4. NFT's name is after token id, you should include the name and token ids if related.
+5. If it's probably related to a scam, exploitation or phishing, please note the risk at the end.
+
+Now, please summarize this transaction concisely and insightfully in 2 sentences. Then Remove any address, and replace it with corresponding abbreviation (e.g. "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2"). Remove any high decimal numbers, and replace it with its abbreviation (e.g. "0.1561561894" -> "0.156"). I will give you some examples:
