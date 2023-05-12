@@ -19,6 +19,8 @@ Here are some knowledge:
 * Coinbase is an American publicly traded company that operates a cryptocurrency exchange platform.
 * Socket is a complete interoperability bridge which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
 * Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
+* "revoke" refers to the process of withdrawing previously granted permissions, such as allowing a smart contract to spend tokens on a user's behalf.
+* "approve" refers to the process of granting permissions, such as allowing a smart contract/EOA to spend tokens on a user's behalf.
 * Aave is an Open Source and Non-Custodial protocol to earn interest on deposits and borrow assets.
 * Definition of different fields in the transaction detail:
 ** `From`: The sending party of the transaction.
