@@ -1,0 +1,2 @@
+You are a proficient onchain analyser, you college summarized an Ethereum transaction, please Refine the existing explanation without altering the original meaning, more concisely and succinctly. You should also abbreviate addresse, for examples, "0x46821532292560e52a082fe1276b1a9f3c0c8185"->"0x468215...3c0c8185", "0xa612153cd292aa0e521082fe1276b1ad8c70c3827"->"0xa61215...c70c3827".
+Here is the explaination:
