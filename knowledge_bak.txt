@@ -1,0 +1,52 @@
+Knowledge for the analysis:
+* `Labels` and `inputdata` are crucial to understand a transaction.
+* Token Transfer could be invoked by contract.
+* Etherscan has labeled all fake tokens as "ERC-20 TOKEN*"
+* A label normally shows after an address and is enclosed in parentheses.
+* `Labels` give you a useful mapping that could help identify the transaction type and motivation.
+* The transaction where "ERC-20 TOKEN*" appears is probably related to a phishing scam.
+* Transaction where Fake_Phishing appears is likely related to a phishing scam.
+* Transaction where exploiter address appears as `From` is probably related to a exploitation. Exploiter address refers to the address of the attacker. The address of the exploiter is in the label.
+* In a swap there could be some intermedias different from the Router used (usually the `InteractedWith` contract). Here's an example of what these intermediaries might be. A 1inch router may go through Uniswap, Sushiswap or other DEXs.
+* In a swap, if the value is not 0 ETH, it is usually the total amount of srcToken.
+* A Contract is usually with a label, and the label is usually the name of the contract.
+* The asset in an approval is usually the token issued by the `InteractedWith` contract.
+* An EOA(Externally Owned Accounts) rarely has a label, unless it has done something special.
+* In a vote counts of polls and options are equal.
+* Coinbase is an American publicly traded company that operates a cryptocurrency exchange platform.
+* Socket is a complete interoperability bridge which allows asset & data transfer across chains, enabling developers to build truly cross-chain apps.
+* Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).
+* "revoke" refers to the process of withdrawing previously granted permissions, such as allowing a smart contract to spend tokens on a user's behalf.
+* "approve" refers to the process of granting permissions, such as allowing a smart contract/EOA to spend tokens on a user's behalf.
+* Definition of different fields in the transaction detail:
+** `From`: The sending party of the transaction.
+** `InteractedWith`: The contract to be interacted with.
+** `TimeStamp`: The date and time at which a transaction is produced.
+** `Value`: The value being transacted in Ether.
+** `Inputdata`: Additional data included for this transaction. Commonly used as part of contract interaction or as a message sent to the recipient.
+** `TransactionAction`: Etherscan highlighted events of the transaction. Such actions aren't always acted by the initiator, and may be incomplete and misleading.
+** `ETHTransfer`: List of native token transferred in the transaction.
+** `ERC20Transfer`: List of ERC-20 tokens transferred in the transaction.
+** `ERC721Transfer`: List of ERC-721 tokens transferred in the transaction.
+** `ERC1155Transfer`: List of ERC-721 tokens transferred in the transaction.
+** `Nonce`: a sequential number assigned to each transaction made by an account.
+** `PositionInBlock`: the position or index of a specific transaction within the block it is included in.
+** `TxnType`: "1" means legacy transaction, "2" means EIP-1159 transaction.
+** `TransactionFee`: Amount paid to the miner and block producer for processing the transaction.
+** `Gas`: Maximum amount of gas allocated for the transaction & the amount eventually used. Normal ETH transfers involve 21,000 gas units while contracts involve higher values.
+** `TransactionNote`: Some keywords about the transaction.
+** `Labels`: A list of labels that are associated with the transaction.
+
+You are provided with an Ethereum transaction's details in JSON format. Your tasks are as follows:
+1. Summarize this transaction in one sentence, concisely and insightfully. Abbreviate addresses (e.g. "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2") and high decimal numbers (e.g. "0.1561561894" -> "0.156").Please ignore the digital part in Transaction Action in the JSON
+2. Analyze and explain the probable motivations behind the swap in one sentence, considering various factors such as traders and investors seeking token conversion, liquidity opportunities, arbitrage possibilities, portfolio rebalancing, or capitalizing on market trends.
+3. If the transaction is likely related to a scam, exploitation or phishing, please note the risk at the end in one sentence.
+
+Special notes about the output format:
+1. Abbreviate addresses and high decimal numbers.
+2. If it's likely a DApp service, recognize the service and mention the main components related to the object interacting with.
+3. Include the names and token IDs of any related NFTs.
+4. NFT receiver should be the buyer in a trade transaction, include the buyer and sellers in your summary.
+
+Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with its label or corresponding abbreviation (e.g., "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2", "0x18895ad1e7a5a10846e5d01363e862c73730b4c0" -> "0x18895a...3730b4c0"). And remove any high decimal numbers, and replace it with its abbreviation (e.g., "0.15615618294" -> "0.1561", "24.26261584" -> "24.26"). If there is any risk, please note that.
+Transaction details: 
