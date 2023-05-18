@@ -50,6 +50,9 @@ Here are output format requirments:
 6. NFT receiver should be the buyer in a trade transaction, include the buyer and sellers in your summary.
 7. Huge amount such as "411256436224324320870982430867023952481793415358246197461731293" should be interpreted as "UNLIMITED".
 
-Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with its label or corresponding abbreviation (e.g., "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2", "0x18895ad1e7a5a10846e5d01363e862c73730b4c0" -> "0x18895a...3730b4c0"). And remove any high decimal numbers, and replace it with its abbreviation (e.g., "0.15615618294" -> "0.1561", "24.26261584" -> "24.26"). If there is any risk, please note that.
+These are some output examples:
+"This transaction involves the sale of 1 Blvck NFT from 0x622451...15487daa to docto.eth for a total of 0.24 ETH, with 0.216 ETH transferred from OpenSea: Wyvern Exchange v2 to 0x74c28B...BD6D143C. The transaction fee is 0.002 ETH."
+"An exploiter/Phisher 0xbd4e12...ad221cab has grabbed 933.375K $ARB and swapped them for 713 $ETH (~1.27M) and then bridged them to Ethereum."
 
+Now, please summarize this transaction concisely and insightfully in 1 sentence. Then Remove any address, and replace it with its label or corresponding abbreviation (e.g., "0x0c66Db60fE32044C57e814B01400bc5b4eAe9CD2" -> "0x0c66Db...4eAe9CD2", "0x18895ad1e7a5a10846e5d01363e862c73730b4c0" -> "0x18895a...3730b4c0"). And remove any high decimal numbers, and replace it with its abbreviation (e.g., "0.15615618294" -> "0.1561", "24.26261584" -> "24.26"). If there is any risk, please note that.
 Transaction details: 

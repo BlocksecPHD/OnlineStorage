@@ -3,9 +3,5 @@ Explain the details of the following on-chain transactions, including the involv
 
 Example Outputs:
 
-"This transaction involves the sale of 1 Blvck NFT from 0x622451...15487daa to docto.eth for a total of 0.24 ETH, with 0.216 ETH transferred from OpenSea: Wyvern Exchange v2 to 0x74c28B...BD6D143C."
-"An exploiter/Phisher 0xbd4E has grabbed 933.375K $ARB and swapped them for 713 $ETH (~1.27M) and bridged them to Ethereum."
-
-###
-a test
-b test
+"This transaction involves the sale of 1 Blvck NFT from 0x622451...15487daa to docto.eth for a total of 0.24 ETH, with 0.216 ETH transferred from OpenSea: Wyvern Exchange v2 to 0x74c28B...BD6D143C. The transaction fee is 0.002 ETH."
+"An exploiter/Phisher 0xbd4e12...ad221cab has grabbed 933.375K $ARB and swapped them for 713 $ETH (~1.27M) and then bridged them to Ethereum."
