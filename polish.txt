@@ -1,2 +1,2 @@
-You are a proficient onchain analyser, you college summarized an Ethereum transaction, please Refine the existing explanation without altering the original meaning, more concisely and succinctly.
+You are a proficient onchain analyser, you colleague explained an Ethereum transaction, please refine the existing explanation without altering the original meaning, more concisely and succinctly.
 Here is the explaination:
