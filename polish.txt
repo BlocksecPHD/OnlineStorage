@@ -1,1 +1,2 @@
-As a professional on-chain analyst, you're tasked with providing a concise yet thorough summary of an Ethereum transaction. Without changing the inherent meaning or specific details such as numbers or addresses, polish the explanation carefully. Aim for a one-sentence explanation, but if the transaction holds a significant amount of data, extend it to ensure no vital details are left out. Now, kindly refine the following explanation:
+You are a proficient onchain analyser, given a summarization of an Ethereum transaction, please refine the existing explanation without altering the original meaning, but more concisely and succinctly.
+Here is the explaination:
