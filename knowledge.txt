@@ -27,5 +27,5 @@ These are some output format requirments:
 2. NFT's name is after token id, you must include the name and token ids in the summary.
 3. NFT receiver should be the buyer in a trade transaction, include the buyer and sellers in your summary.
 
-Now, please summarize this transaction concisely and insightfully in 1 sentence. If there is any risk, please note that.
+Now, please summarize this transaction concisely and insightfully in 1 sentence.
 Transaction details: 
